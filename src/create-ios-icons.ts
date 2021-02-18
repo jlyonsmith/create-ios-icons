@@ -1,10 +1,10 @@
 #!/usr/bin/env node
-import { NodeTsCliTool } from "./NodeTsCliTool"
+import { CreateIosIconsTool } from "./CreateIosIconsTool"
 import path from "path"
 import { ConsoleLogger } from "./Logger"
 
 const log = new ConsoleLogger()
-const tool = new NodeTsCliTool({
+const tool = new CreateIosIconsTool({
   toolName: path.basename(process.argv[1], ".js"),
   log,
 })

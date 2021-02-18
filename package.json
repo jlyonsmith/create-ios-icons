@@ -1,5 +1,5 @@
 {
-  "name": "node-ts-cli",
+  "name": "create-ios-icons",
   "version": "1.0.0",
   "engines": {
     "node": ">=12.0"
@@ -11,9 +11,9 @@
   "description": "NodeJS/TypeScript CLI tool",
   "scripts": {
     "clean": "rm -rf dist",
-    "start": "ts-node src/node-ts-cli.ts",
+    "start": "ts-node src/create-ios-icons.ts",
     "build": "rm -rf dist/* && tsc",
-    "debug": "ts-node --inspect-brk src/node-ts-cli.ts",
+    "debug": "ts-node --inspect-brk src/create-ios-icons.ts",
     "test": "jest --coverage",
     "test:debug": "node --inspect-brk node_modules/.bin/jest --runInBand",
     "deploy": "npm publish --access public",
@@ -22,14 +22,14 @@
     "show-coverage": "open coverage/lcov-report/index.html"
   },
   "bin": {
-    "node-ts-cli": "dist/node-ts-cli.js"
+    "create-ios-icons": "dist/create-ios-icons.js"
   },
   "files": [
     "dist/**"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/some-user/node-ts-cli.git"
+    "url": "git+https://github.com/jlyonsmith/create-ios-icons.git"
   },
   "keywords": [
     "cli",
@@ -38,9 +38,9 @@
   "author": "John Lyon-Smith",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/some-user/node-ts-cli/issues"
+    "url": "https://github.com/jlyonsmith/create-ios-icons/issues"
   },
-  "homepage": "https://github.com/some-user/node-ts-cli#readme",
+  "homepage": "https://github.com/jlyonsmith/create-ios-icons#readme",
   "dependencies": {
     "chalk": "^4.0.0",
     "minimist": "^1.2.5"

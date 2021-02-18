@@ -1,7 +1,7 @@
 import parseArgs from "minimist"
 import { fullVersion } from "./version"
 
-export class NodeTsCliTool {
+export class CreateIosIconsTool {
   toolName: string
   log: any
   debug: boolean

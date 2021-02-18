@@ -1,4 +1,4 @@
-import { NodeTsCliTool } from "./NodeTsCliTool"
+import { CreateIosIconsTool } from "./CreateIosIconsTool"
 
 let container = null
 
@@ -15,18 +15,18 @@ beforeEach(() => {
 })
 
 test("constructor", () => {
-  const tool = new NodeTsCliTool(container)
+  const tool = new CreateIosIconsTool(container)
 
   // Happy path
   expect(tool).not.toBeNull()
 
   // Missing options
-  expect(() => new NodeTsCliTool({})).toThrowError("Must supply")
+  expect(() => new CreateIosIconsTool({})).toThrowError("Must supply")
 })
 
 test("run", async () => {
   // Happy path
-  const tool = new NodeTsCliTool(container)
+  const tool = new CreateIosIconsTool(container)
 
   await expect(tool.run([])).resolves.toBe(0)
 
