@@ -1,4 +1,4 @@
-# Node.js/TypeScript CLI Tool
+# Create iOS Icons
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/jlyonsmith/create-ios-icons) ![Code coverage](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jlyonsmith/create-ios-icons/master/coverage.json) [![npm](https://img.shields.io/npm/dm/@johnls/create-ios-icons)](https://www.npmjs.com/package/@johnls/create-ios-icons) [![GitHub](https://img.shields.io/github/license/jlyonsmith/create-ios-icons)](https://raw.githubusercontent.com/jlyonsmith/create-ios-icons/master/LICENSE)
 
