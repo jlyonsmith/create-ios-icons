@@ -44,7 +44,7 @@
   "dependencies": {
     "chalk": "^4.0.0",
     "command-exists": "^1.2.9",
-    "fs-extra": "^9.1.0",
+    "fs-extra": "^10.0.0",
     "minimist": "^1.2.5",
     "promisify-child-process": "^4.1.1"
   },
